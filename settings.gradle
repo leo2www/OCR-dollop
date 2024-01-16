@@ -2,17 +2,21 @@ pluginManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://developer.huawei.com/repo/' }
     }
 }
-//dependencyResolutionManagement {
-//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-//    repositories {
-//        google()
-//        mavenCentral()
-//        // Add the Maven address.
-//        maven { url 'https://developer.huawei.com/repo/' }
-//    }
-//}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // Add the Maven address.
+        //Maven仓地址无法直接在浏览器中打开访问，只能在IDE中配置。
+        // 如需添加多个Maven代码库，请将华为公司的Maven仓地址配置在最后。
+        // 配置HMS Core SDK的Maven仓地址。
+        maven { url 'https://developer.huawei.com/repo/' }
+    }
+}
 
 rootProject.name = "OCR-dollop"
 include ':app'

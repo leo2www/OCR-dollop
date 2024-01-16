@@ -1,11 +1,23 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    // Add the information to the bottom of the file.
+    // 添加AGC插件配置
+//    apply plugin: 'com.huawei.agconnect'
+    id 'com.huawei.agconnect'
 }
 
 android {
     namespace 'check.OCR'
     compileSdk 34
+
+    signingConfigs {
+        release {
+
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
 
     defaultConfig {
         applicationId "check.OCR"
@@ -22,8 +34,13 @@ android {
 
     buildTypes {
         release {
+            signingConfig signingConfigs.release
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.release
+            debuggable true
         }
     }
     compileOptions {
@@ -49,7 +66,11 @@ android {
 dependencies {
 
     // Add dependencies of HMS Core.
-    implementation 'com.huawei.agconnect:agconnect-core:1.5.2.300'
+    // 配置HMS Core SDK的Maven仓地址。
+    implementation 'com.huawei.agconnect:agconnect-core:1.8.1.300'
+    //如果您集成了Account SDK 6.11.0.300及以上版本，可在“dependencies”
+    // 中添加HMS Core Installer SDK编译依赖，自动引导用户下载HMS Core APK。
+    implementation 'com.huawei.hms:hmscoreinstaller:6.11.0.301'
     // default
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
@@ -67,6 +88,3 @@ dependencies {
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
 }
-
-// Add the information to the bottom of the file.
-apply plugin: 'com.huawei.agconnect'
