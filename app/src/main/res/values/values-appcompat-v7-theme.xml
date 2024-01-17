@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>
+<!--    <style name="Theme.AppCompat.CompactMenu" parent="Base.Theme.AppCompat.CompactMenu"/>-->
+<!--    <style name="Theme.AppCompat.DayNight" parent="Theme.AppCompat.Light"/>-->
+<!--    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar"/>-->
+<!--    <style name="Theme.AppCompat.DayNight.Dialog" parent="Theme.AppCompat.Light.Dialog"/>-->
+<!--    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert"/>-->
+<!--    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="Theme.AppCompat.Light.Dialog.MinWidth"/>-->
+<!--    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="Theme.AppCompat.Light.DialogWhenLarge"/>-->
+<!--    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"/>-->
+<!--    <style name="Theme.AppCompat.Dialog" parent="Base.Theme.AppCompat.Dialog"/>-->
+<!--    <style name="Theme.AppCompat.Dialog.Alert" parent="Base.Theme.AppCompat.Dialog.Alert"/>-->
+<!--    <style name="Theme.AppCompat.Dialog.MinWidth" parent="Base.Theme.AppCompat.Dialog.MinWidth"/>-->
+<!--    <style name="Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.DialogWhenLarge">-->
+<!--    </style>-->
+    <style name="Theme.AppCompat.Light" parent="Base.Theme.AppCompat.Light"/>
+<!--    <style name="Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar"/>-->
+<!--    <style name="Theme.AppCompat.Light.Dialog" parent="Base.Theme.AppCompat.Light.Dialog"/>-->
+<!--    <style name="Theme.AppCompat.Light.Dialog.Alert" parent="Base.Theme.AppCompat.Light.Dialog.Alert"/>-->
+<!--    <style name="Theme.AppCompat.Light.Dialog.MinWidth" parent="Base.Theme.AppCompat.Light.Dialog.MinWidth"/>-->
+<!--    <style name="Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.DialogWhenLarge">-->
+<!--    </style>-->
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+<!--    <style name="Theme.AppCompat.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--    </style>-->
+
+
+    <style name="Base.Theme.AppCompat" parent="android:Theme">
+    </style>
+
+
+
+<!--    <style name="Base.Theme.AppCompat.CompactMenu" parent="">-->
+<!--        <item name="android:itemTextAppearance">?android:attr/textAppearanceMedium</item>-->
+<!--        <item name="android:listViewStyle">@style/Widget.AppCompat.ListView.Menu</item>-->
+<!--        <item name="android:windowAnimationStyle">@style/Animation.AppCompat.DropDownUp</item>-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.Dialog" parent="Base.V7.Theme.AppCompat.Dialog"/>-->
+<!--    <style name="Base.Theme.AppCompat.Dialog.Alert">-->
+<!--        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>-->
+<!--        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.Dialog.FixedSize">-->
+<!--        <item name="windowFixedWidthMajor">@dimen/abc_dialog_fixed_width_major</item>-->
+<!--        <item name="windowFixedWidthMinor">@dimen/abc_dialog_fixed_width_minor</item>-->
+<!--        <item name="windowFixedHeightMajor">@dimen/abc_dialog_fixed_height_major</item>-->
+<!--        <item name="windowFixedHeightMinor">@dimen/abc_dialog_fixed_height_minor</item>-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.Dialog.MinWidth">-->
+<!--        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>-->
+<!--        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Theme.AppCompat"/>-->
+
+
+    <style name="Base.Theme.AppCompat.Light" parent="android:Theme.Light">
+    </style>
+
+
+
+<!--    <style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light">-->
+<!--&lt;!&ndash;        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="actionBarWidgetTheme">@null</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="actionBarTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>&ndash;&gt;-->
+
+<!--        &lt;!&ndash; Panel attributes &ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorPrimary">@color/primary_material_dark</item>&ndash;&gt;-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.Light.Dialog" parent="Base.V7.Theme.AppCompat.Light.Dialog"/>-->
+<!--    <style name="Base.Theme.AppCompat.Light.Dialog.Alert">-->
+<!--        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>-->
+<!--        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.Light.Dialog.FixedSize">-->
+<!--        <item name="windowFixedWidthMajor">@dimen/abc_dialog_fixed_width_major</item>-->
+<!--        <item name="windowFixedWidthMinor">@dimen/abc_dialog_fixed_width_minor</item>-->
+<!--        <item name="windowFixedHeightMajor">@dimen/abc_dialog_fixed_height_major</item>-->
+<!--        <item name="windowFixedHeightMinor">@dimen/abc_dialog_fixed_height_minor</item>-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.Light.Dialog.MinWidth">-->
+<!--        <item name="android:windowMinWidthMajor">@dimen/abc_dialog_min_width_major</item>-->
+<!--        <item name="android:windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>-->
+<!--    </style>-->
+<!--    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Theme.AppCompat.Light"/>-->
+
+
+
+</resources>

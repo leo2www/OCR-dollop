@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="catalogue_type">
+        <item>Mobile Phone</item>
+        <item>Electronics</item>
+        <item>ShoesBags</item>
+        <item>Glasses</item>
+    </string-array>
+    <string-array name="search_hot">
+        <item>Mobile</item>
+        <item>Sample 1</item>
+        <item>Watch</item>
+        <item>Handbag</item>
+    </string-array>
+
+    <string-array name="language_list">
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Turkish</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Italian</item>
+        <item>Hindi</item>
+        <item>Russian</item>
+        <item>Japanese</item>
+        <item>Chinese</item>
+    </string-array>
+
+    <string-array name="iso_639_1_list">
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>tr</item>
+        <item>es</item>
+        <item>pt</item>
+        <item>it</item>
+        <item>hi</item>
+        <item>ru</item>
+        <item>ja</item>
+        <item>zh</item>
+    </string-array>
+
+    <string-array name="feedback_list">
+        <item>Suggestions</item>
+        <item>Exception</item>
+        <item>Complaint</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="shop_name_list">
+        <item>Huawei Flagship Store</item>
+        <item>Huawei After-Sales Repair Shop</item>
+        <item>Huawei Franchise Store</item>
+    </string-array>
+
+    <string-array name="shop_addr_list">
+        <item>Mock address 1</item>
+        <item>Mock address 2</item>
+        <item>Mock address 3</item>
+    </string-array>
+
+    <string-array name="camera_select">
+        <item>Scan</item>
+        <item>Photo</item>
+    </string-array>
+</resources>

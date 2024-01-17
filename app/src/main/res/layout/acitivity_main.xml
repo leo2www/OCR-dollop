@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/draw_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <!--背景 background -->
+    <!--xmlns 表示 XML 命名空间，并且每行代码都定义了一个架构-->
+    <!-- ID 是元素的唯一资源名称。当您使用布局编辑器添加 View 或其他资源时，
+    Android Studio 会自动为它们分配资源 ID。当您手动在 XML 中输入时，您需
+    要自行明确声明资源 ID。XML 文件中的新视图 ID 必须使用 @+id 前缀进行定义，
+    这会让 Android Studio 将相应 ID 添加为新的资源 ID。
+    为资源选择描述性名称，以便您了解它们的用途，但这些名称应全部采用小写字母，且
+    多个单词之间应使用下划线进行分隔。
+    当您在应用代码中引用资源 ID 时，请使用 R.<type>.<name> 格式，例如
+    R.string.roll。对于 View ID，<type> 为 id，例如 R.id.button。-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/bar_home"
+            layout="@layout/home_bar"/>
+
+        <FrameLayout
+            android:id="@+id/frame_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bar_home" />
+
+        <RadioGroup
+            android:id="@+id/tabs_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/tab_bgd_config"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/tab_home"
+                style="@style/Custom.TabRadioButton"
+                android:layout_marginStart="1dp"
+                android:layout_marginEnd="1dp"
+                android:background="@drawable/tab_start_bgd_color_selector"
+                android:checked="true"
+                android:text="@string/title_home" />
+
+            <RadioButton
+                android:id="@+id/tab_catalogue"
+                style="@style/Custom.TabRadioButton"
+                android:layout_marginEnd="1dp"
+                android:background="@drawable/tab_center_bgd_color_selector"
+                android:text="@string/title_catalogue" />
+
+            <RadioButton
+                android:id="@+id/tab_new_in"
+                style="@style/Custom.TabRadioButton"
+                android:layout_marginEnd="1dp"
+                android:background="@drawable/tab_end_bgd_color_selector"
+                android:text="@string/title_new_in" />
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
