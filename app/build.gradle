@@ -11,6 +11,10 @@ android {
     namespace 'check.OCR'
     compileSdk 34
 
+    sourceSets{
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
     signingConfigs {
         release {
 
