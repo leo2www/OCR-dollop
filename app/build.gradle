@@ -136,7 +136,7 @@ dependencies {
 //    implementation 'com.huawei.agconnect:agconnect-applinking:1.5.1.300'
 //    implementation "com.huawei.agconnect:agconnect-storage:1.3.1.100"
 //
-//    // HMS
+// HMS 与Androidx存在冲突，建议重写替换
 //    implementation 'com.huawei.hms:hwid:5.3.0.305'
 //    implementation 'com.huawei.hms:hianalytics:6.0.0.301'
 //    implementation 'com.huawei.hms:identity:5.3.0.300'
@@ -146,11 +146,11 @@ dependencies {
 //    implementation 'com.huawei.hms:scanplus:2.0.0.300'
 //    implementation 'com.huawei.hms:videokit-player:1.0.5.300'
 //    implementation 'com.huawei.hms:safetydetect:5.2.0.300'
-////    implementation 'com.huawei.hms:ml-computer-voice-asr-plugin:2.1.0.301'
-////    implementation 'com.huawei.hms:ml-computer-translate:2.1.0.300'
-////    implementation 'com.huawei.hms:ml-computer-card-bcr-plugin:2.0.3.301'
-////    implementation 'com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300'
-////    implementation 'com.huawei.hms:ml-computer-vision-imagesuperresolution-model:2.0.4.300'
+//    implementation 'com.huawei.hms:ml-computer-voice-asr-plugin:2.1.0.301'
+//    implementation 'com.huawei.hms:ml-computer-translate:2.1.0.300'
+//    implementation 'com.huawei.hms:ml-computer-card-bcr-plugin:2.0.3.301'
+//    implementation 'com.huawei.hms:ml-computer-vision-imagesuperresolution:2.0.4.300'
+//    implementation 'com.huawei.hms:ml-computer-vision-imagesuperresolution-model:2.0.4.300'
 //    implementation 'com.huawei.hms:network-embedded:5.0.2.300'
 //    implementation 'com.huawei.hms:maps:6.0.0.301'
 //    implementation 'com.huawei.hms:site:6.0.0.300'
